@@ -1,12 +1,12 @@
 Summary:	Systray plugin for XChat
 Summary(pl):	Wtyczka obszaru systemowego dla XChat
 Name:		xchat-systray-plugin
-Version:	2.4.0
-Release:	1
+Version:	2.4.5
+Release:	0.1
 License:	GPL v2
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/xchat2-plugins/xchat-systray-integration-%{version}-src.tar.gz
-# Source0-md5:	c6e7e936b643ef5570dce91d40478bcf
+# Source0-md5:	f7068053ff7cc63d5bf2fd8cfabe0c82
 URL:		http://blight.altervista.org/
 BuildRequires:	gdk-pixbuf-devel
 BuildRequires:	gtk+2-devel
@@ -42,3 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Docs/README Docs/TODO
 %attr(755,root,root) %{_libdir}/xchat/plugins/systray.so
+%{_libdir}/xchat/plugins/GTKTray
+%{_libdir}/xchat/plugins/Menu
+%{_libdir}/xchat/plugins/Win32Tray
