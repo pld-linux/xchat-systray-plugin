@@ -26,12 +26,13 @@ powiadamia o nowo rozpoczêtych rozmowach.
 %setup -q -n %{name}_%{version}
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -Wall `pkg-config gtk+-2.0 --cflags`"
 
 %install
 rm -rf $RPM_BUILD_ROOT
-#install -d $RPM_BUILD_ROOT%{_libdir}/xchat/plugins
-#install systray.so $RPM_BUILD_ROOT%{_libdir}/xchat/plugins
+
 sh install.sh --prefix=$RPM_BUILD_ROOT%{_prefix}
 
 %clean
