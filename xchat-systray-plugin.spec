@@ -15,8 +15,8 @@ Requires:	xchat
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Allows you to minimize and maximize XChat to the systray and alerts
-you when somebody is trying to talk to you.
+Allows you to minimize and maximize XChat to the systray. It can also
+alert you when somebody is trying to talk to you.
 
 %description -l pl
 Pozwala na zminimalizowanie XChat do obszaru systemowego oraz
