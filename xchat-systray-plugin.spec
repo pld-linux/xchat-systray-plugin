@@ -1,5 +1,5 @@
 Summary:	Systray plugin for XChat
-Summary(pl):	Wtyczka obszaru systemowego dla XChat
+Summary(pl.UTF-8):   Wtyczka obszaru systemowego dla XChat
 Name:		xchat-systray-plugin
 Version:	2.4.5
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Allows you to minimize and maximize XChat to the systray. It can also
 alert you when somebody is trying to talk to you.
 
-%description -l pl
+%description -l pl.UTF-8
 Pozwala na zminimalizowanie XChat do obszaru systemowego oraz
-powiadamia o nowo rozpoczêtych rozmowach.
+powiadamia o nowo rozpoczÄ™tych rozmowach.
 
 %prep
 %setup -q -n xchat-systray-integration-%{version}
