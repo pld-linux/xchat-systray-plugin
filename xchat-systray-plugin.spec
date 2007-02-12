@@ -1,5 +1,5 @@
 Summary:	Systray plugin for XChat
-Summary(pl.UTF-8):   Wtyczka obszaru systemowego dla XChat
+Summary(pl.UTF-8):	Wtyczka obszaru systemowego dla XChat
 Name:		xchat-systray-plugin
 Version:	2.4.5
 Release:	1
